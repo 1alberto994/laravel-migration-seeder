@@ -19,9 +19,12 @@
 
                         <div class="card">
                             <div class="card-body">
-                                <img src="{{ Vite::asset('resources/img/laravel.png') }}" alt="">
+                                
 
-                                <h1 class="card-title">Laravel 9 + Bootstrap Template</h1>
+                                <h1 class="card-title">{{$traintrain->office}}</h1>
+                                <h2>
+                                {{$traintrain->orario_di_partenza}}
+                                </h2>
                             </div>
                         </div>
 
