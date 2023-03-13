@@ -11,7 +11,8 @@
     </head>
     <body>
 
-        <!-- <main>
+        <main>
+            @foreach($trains as $train )
             <div class="container">
                 <div class="row">
                     <div class="col text-center">
@@ -27,7 +28,8 @@
                     </div>
                 </div>
             </div>
-        </main> -->
+            @endforeach
+        </main>
 
     </body>
 </html>
